@@ -1,0 +1,47 @@
+{
+  "name": "rnTsStarter",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "dva-core": "^1.4.0",
+    "dva-loading": "^2.0.6",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "react": "16.6.3",
+    "react-native": "0.58.3",
+    "react-native-gesture-handler": "^1.0.12",
+    "react-native-vector-icons": "^6.2.0",
+    "react-navigation": "^3.0.9",
+    "react-redux": "^6.0.0",
+    "redux-logger": "^3.0.6",
+    "seamless-immutable": "^7.1.4"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^3.1.43",
+    "@types/jest": "^23.3.13",
+    "@types/lodash": "^4.14.120",
+    "@types/qs": "^6.5.1",
+    "@types/react": "^16.7.22",
+    "@types/react-native": "^0.57.32",
+    "@types/react-navigation": "^3.0.1",
+    "@types/react-redux": "^7.0.1",
+    "@types/react-test-renderer": "^16.0.3",
+    "@types/redux-logger": "^3.0.6",
+    "@types/seamless-immutable": "^7.1.6",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "24.0.0",
+    "jest": "24.0.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3",
+    "typescript": "^3.2.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
